@@ -1,0 +1,36 @@
+.status-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 3px;
+    background-color: white;
+    z-index: 40;
+}
+
+.status-bar__column:first-child{
+    width: 20%;
+    margin-left: 5px;
+}
+
+.status-bar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    width: 20%;
+}
+
+.fa-battery-three-quarters{
+    margin: 0px 5px;
+}
+
+.status-bar-chat{
+    background-color: var(--color-chat);
+}

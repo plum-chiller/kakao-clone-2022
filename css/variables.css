@@ -1,0 +1,7 @@
+:root{
+    --blueviolet: rgb(100, 60, 200);
+    --horizontal-space: 20px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
+    --color-gray: rgba(0, 0, 0, 0.5);
+    --color-chat: rgb(167, 160, 197);
+}
